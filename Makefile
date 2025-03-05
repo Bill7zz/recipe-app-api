@@ -1,6 +1,3 @@
-.ONESHELL:
-SHELL := /bin/bash  # Ensure the script runs in bash
-
 .DEFAULT_GOAL := run
 
 PYTHON = venv/bin/python
