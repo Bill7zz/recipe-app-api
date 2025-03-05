@@ -22,7 +22,7 @@ lint: venv
 	$(PYTHON) -m flake8 .
 
 test: venv
-	$(PYTHON) -m pytest
+	$(PYTHON) manage.py test
 
 clean:
 	rm -rf __pycache__
